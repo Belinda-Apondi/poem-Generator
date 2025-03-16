@@ -1,3 +1,18 @@
 body{
     text-align: center;
+    background-color:#51a898;
+}
+
+#mainBody{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    width: 130px;
+    margin-top: 200px;
+}
+a {
+    color: rgb(109, 8, 109);
 }
