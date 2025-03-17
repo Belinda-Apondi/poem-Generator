@@ -53,7 +53,6 @@ a {
     width: 450px;
     line-height: 30px;
     white-space: pre-line;  
-    overflow: hidden; 
     height: 180px
     
 }
@@ -69,7 +68,8 @@ h2{
   
 }
 h1 {
-    margin-bottom: 12px;
+    margin-bottom:12px;
+    
 }
 
 footer {
