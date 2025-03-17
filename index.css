@@ -8,16 +8,16 @@ h1, h2, form {
 #mainBody{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
    
     
 }
 main{
     border-top: 1px solid rgb(178, 223, 236);
     border-bottom: 1px solid rgb(178, 223, 236);
-    padding-top: 20px;
-    padding-bottom: 150px;
-    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
     
 }
 img{
@@ -50,13 +50,29 @@ a {
     background-color: #b36c55;
     margin-top: 50px;
     color: #0c3821;
-    width: 400px;
+    width: 450px;
+    line-height: 30px;
+    white-space: pre-line;  
+    overflow: hidden; 
+    height: 180px
     
 }
 
 header {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 #details {
     margin: 20px 0px ;
+}
+h2{
+    margin-top: 0px;
+  
+}
+h1 {
+    margin-bottom: 12px;
+}
+
+footer {
+    font-weight: 600 ;
+    text-align: center;
 }
