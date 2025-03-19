@@ -1,5 +1,4 @@
 function getThePoem(response){
-
     new Typewriter('#thePoem', {
         strings: response.data.answer,
         autoStart: true,

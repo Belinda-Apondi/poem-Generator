@@ -8,15 +8,22 @@ h1, h2, form {
 #mainBody{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: 5px;
    
     
+}
+p {
+    width: 600px;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
 }
 main{
     border-top: 1px solid rgb(178, 223, 236);
     border-bottom: 1px solid rgb(178, 223, 236);
-    padding-top: 40px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
     margin-bottom: 20px;
     
 }
@@ -44,7 +51,7 @@ a {
     background-color:#ecec6d ;
 }
 #thePoem {
-    margin-left: 50px;
+    margin-left: 80px;
     border-left: 5px solid #af1e1e;
     padding-left: 5px;
     background-color: #b36c55;
@@ -53,7 +60,8 @@ a {
     width: 450px;
     line-height: 30px;
     white-space: pre-line;  
-    height: 180px
+    height: 180px;
+
     
 }
 
@@ -61,7 +69,7 @@ header {
     margin-bottom: 20px;
 }
 #details {
-    margin: 20px 0px ;
+    margin: 5px 0px ;
 }
 h2{
     margin-top: 0px;
